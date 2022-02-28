@@ -41,6 +41,26 @@ Array.prototype.each = function(fn) {
     });
 };
 
+Array.prototype.trimStart = function() {
+    let i = 0;
+    while (i < this.length && this[i] == null) {
+        i++;
+    }
+    return this.slice(i);
+};
+
+Array.prototype.trimEnd = function() {
+    let i = this.length - 1;
+    while (i >= 0 && this[i] == null) {
+        i--;
+    }
+    return this.slice(0, i + 1);
+};
+
+Array.prototype.trim = function() {
+    return this.trimStart().trimEnd();
+};
+
 /* Convert any iterable to array.
  * @param {any} iterable
  * @return {Array<any>}

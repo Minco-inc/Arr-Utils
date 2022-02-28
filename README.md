@@ -26,6 +26,13 @@ arr.each((e, i, next) => {
  */
 let picked = arr.pick([1, 1, 2, 1, 1]);
 
+/* This will trim the falsey of array elements.
+ * Same as String.prototype.trim()
+ */
+Array.prototype.trimStart();
+Array.prototype.trimEnd();
+Array.prototype.trim();
+
 /* This will hallow clone the array.
  */
 let arr1 = arr.clone();
