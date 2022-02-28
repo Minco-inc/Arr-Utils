@@ -1,5 +1,5 @@
-# Arr Utils
-The simple/lightweight prototype utility about array!
+# Arutils
+The simple/lightweight prototype utility for array!
 
 # Features
 - Pick random elements from array with weights.
@@ -9,7 +9,7 @@ The simple/lightweight prototype utility about array!
 
 # Installation
 ```js
-const toArray = require("arrutils");
+const toArray = require("arrutil");
 
 let arr = [1, 2, 3, 4, 5];
 
