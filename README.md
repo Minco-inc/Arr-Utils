@@ -5,6 +5,7 @@ The simple/lightweight prototype utility for array!
 - Pick random elements from array with weights.
 - Await each array with next() function.
 - Clone array.
+- Trim array.
 - Convert iterator to array.
 - Super Lightweight.
 
