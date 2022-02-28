@@ -6,6 +6,7 @@ The simple/lightweight prototype utility for array!
 - Await each array with next() function.
 - Clone array.
 - Convert iterator to array.
+- Super Lightweight.
 
 # Installation
 ```js
