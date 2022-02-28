@@ -1,5 +1,6 @@
 /* Pick random element from the array.
  * @param {weight: Array<Number>}
+ */
 Array.prototype.pick = function(weight) {
     if (weight) {
         if (weight.length != this.length) throw new Error('Weight array length must be equal to array length.');
