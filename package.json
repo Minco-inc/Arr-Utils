@@ -1,31 +1,31 @@
 {
-  "name": "arutils",
-  "version": "1.0.5",
-  "description": "Prototype utility of Array!",
-  "main": "arrutils.js",
-  "scripts": {
-    "test": "node demo"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Minco-inc/Arr-Utils.git"
-  },
-  "keywords": [
-    "arrutils",
-    "arrayutils",
-    "arr",
-    "ay",
-    "array",
-    "utils",
-    "util",
-    "random",
-    "clone",
-    "copy",
-    "shadow",
-    "swallow",
-    "each",
-    "next"
-  ],
-  "author": "Minco",
-  "license": "MIT"
+    "name": "arutils",
+    "version": "1.0.6",
+    "description": "Prototype utility of Array!",
+    "main": "arrutils.js",
+    "scripts": {
+        "test": "node demo"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Minco-inc/Arr-Utils.git"
+    },
+    "keywords": [
+        "arrutils",
+        "arrayutils",
+        "arr",
+        "ay",
+        "array",
+        "utils",
+        "util",
+        "random",
+        "clone",
+        "copy",
+        "shadow",
+        "swallow",
+        "each",
+        "next"
+    ],
+    "author": "Minco",
+    "license": "MIT"
 }
