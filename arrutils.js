@@ -31,9 +31,9 @@ Array.prototype.each = function(fn) {
         // fn(v, i, next)
         let i = 0;
         let that = this;
-        let next = () => {
+        let next = (retry = false) => {
             if (i < that.length) {
-                fn(that[i], i++, next);
+                fn(that[i], retry ? i : i++, next);
             } else {
                 resolve();
             }

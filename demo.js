@@ -1,4 +1,4 @@
-require("./arrpick")
+require("./arrutils")
 
 let arr = [1, 2, 3, 4, 5];
 
@@ -15,7 +15,8 @@ let arr = [1, 2, 3, 4, 5];
     console.log("   The demo will each element in the array and print it and wait 100ms.");
     await arr.each((v, i, next) => {
         console.log(`    arr[${i}] = ${v}`);
-        setTimeout(next, 100);
+        if (i === 2) { next(true); }
+        else setTimeout(next, 100);
     });
 
     console.log();

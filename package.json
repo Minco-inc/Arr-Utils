@@ -1,6 +1,6 @@
 {
   "name": "arutils",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Prototype utility of Array!",
   "main": "arrutils.js",
   "scripts": {
