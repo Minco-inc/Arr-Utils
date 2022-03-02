@@ -62,6 +62,14 @@ Array.prototype.trim = function() {
     return this.trimStart().trimEnd();
 };
 
+Array.prototype.first = function() {
+    return this[0];
+};
+
+Array.prototype.last = function() {
+    return this[this.length - 1];
+};
+
 /* Convert any iterable to array.
  * @param {any} iterable
  * @return {Array<any>}
