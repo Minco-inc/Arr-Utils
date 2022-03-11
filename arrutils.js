@@ -44,7 +44,7 @@ Array.prototype.each = function(fn) {
 
 Array.prototype.trimStart = function() {
     let i = 0;
-    while (i < this.length && this[i] == null) {
+    while (i < this.length && !this[i]) {
         i++;
     }
     return this.slice(i);
@@ -52,7 +52,7 @@ Array.prototype.trimStart = function() {
 
 Array.prototype.trimEnd = function() {
     let i = this.length - 1;
-    while (i >= 0 && this[i] == null) {
+    while (i >= 0 && !this[i]) {
         i--;
     }
     return this.slice(0, i + 1);
